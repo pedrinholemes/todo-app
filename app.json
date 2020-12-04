@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "Todo App",
+    "slug": "todo-app",
+    "sdkVersion": "39.0.0",
+    "privacy": "public",
+    "orientation": "portrait"
+  }
+}
