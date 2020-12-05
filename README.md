@@ -1,11 +1,32 @@
-# Sample Snack app
+<h1 align="center">
+  <img alt="To-Do App" title="#delicinha" src="assets/icon.svg" width="200px" />
+</h1>
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+<h4 align="center">
+  ToDo App
+</h4>
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
+</p>
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
+<h2>Quais Techs Eu usei?</h2>
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+- Expo no React Native
+- React
+- Async Storage
+- Styled-Components
+
+## Por que criei ele?
+
+Meu celular tem o Android *5.0.2* e está desatualizado demais para rodar o app nativo do [Notion](https://notion.so), então criei este bem simples 😀
+
+## Desenvolvedor
+
+👤 **Pedrinho Lemes**
+
+- Website: [pedrinholemes.web.app](https://pedrinholemes.web.app)
+- Github: [@pedrinholemes](https://github.com/pedrinholemes)
+- Email: <pedroca21265@gmail.com>

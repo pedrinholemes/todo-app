@@ -9,26 +9,24 @@ import {
 
 import {
   Text,
-  View,
   Container,
   TextInput,
   Button,
   FlatList,
   Inputs,
   List,
-} from '../styles';
+} from './styles';
 
-import {useTheme} from 'styled-components/native'
+import { useTheme } from 'styled-components/native'
 
 import {
   getData,
-  storeData,
   saveTodo,
   clearAllTodos,
   removeTodo,
-} from '../lib/todos';
+} from '../../lib/todos';
 
-import Copyright from '../components/copyright';
+import Copyright from '../../components/copyright';
 
 export default function App() {
   const SIMPLE_VIBRATION_TIME = 50;
@@ -77,8 +75,8 @@ export default function App() {
               Seus Todos
             </Text>
           ) : (
-            <Text>Nenhum Todo</Text>
-          )}
+              <Text>Nenhum Todo</Text>
+            )}
           <FlatList
             data={DataTodos}
             refreshControl={

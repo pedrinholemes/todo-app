@@ -4,6 +4,25 @@
     "slug": "todo-app",
     "sdkVersion": "39.0.0",
     "privacy": "public",
-    "orientation": "portrait"
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#090B15"
+    },
+    "android": {
+      "package": "com.pedrinholemes.todoapp"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pedrinholemes.todoapp"
+    }
   }
 }

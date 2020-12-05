@@ -2,7 +2,7 @@ import * as React from 'react';
 import { StatusBar } from 'react-native';
 import ThemeContext, { Provider } from './lib/theme';
 
-import Home from './page/Home';
+import Home from './pages/Home';
 
 const themes = {
   light: {
@@ -19,8 +19,8 @@ const themes = {
 };
 
 function App() {
-  const {theme, ToogleTheme} = React.useContext(ThemeContext)
-  
+  const { theme } = React.useContext(ThemeContext)
+
   return (
     <>
       <StatusBar backgroundColor={theme.primary} />
@@ -32,6 +32,6 @@ function App() {
 
 export default () => (
   <Provider themes={themes}>
-    <App/>
+    <App />
   </Provider>
 )
